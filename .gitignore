@@ -1,0 +1,29 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.so
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ── Generated model files (recreate with: python train_models.py) ──
+*.pkl
+*.h5
+
+# ── Logs ──
+*.log
+mpc_control_log.json
+
+# ── OS ──
+.directory
+.DS_Store
